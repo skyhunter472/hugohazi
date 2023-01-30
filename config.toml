@@ -1,0 +1,6 @@
+baseURL = 'https://example.com/'
+languageCode = 'hu'
+defaultContentLanguage = 'hu'
+title = 'Hugo mintaoldal'
+theme = 'ananke'
+canonifyurls = true

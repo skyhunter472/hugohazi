@@ -1,0 +1,41 @@
+name: Run Hugo
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+  pull_request:
+
+permissions: write-all
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify -b https://${GITHUB_REPOSITORY/\//.github.io\/}/
+
+      - name: Dump GitHub context
+        id: github_context_step
+        run: echo '${{ toJSON(github.repository_owner) }}'
+
+      - name: Info
+        run: env
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
