@@ -1,6 +1,6 @@
 baseURL = 'https://example.com/'
 languageCode = 'hu'
 defaultContentLanguage = 'hu'
-title = 'Hugo mintaoldal'
+title = 'Bitcoin'
 theme = 'ananke'
 canonifyurls = true
