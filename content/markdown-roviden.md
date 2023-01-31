@@ -19,4 +19,4 @@ Felsorolás:
 
 Kereskedésra a Coindesk-et ajánlom
 
-![Ez a kisbalaton](/kisbalaton.jpg)
+!static/BTC.jfif
