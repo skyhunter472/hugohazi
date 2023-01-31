@@ -1,7 +1,7 @@
 ---
-title: "Elindult az oldal"
+title: "Hol éri meg 2023-ban Bitcoin-t venni?"
 date: 2022-11-28T09:59:25Z
 draft: false
 ---
 
-Örömmel jelentjük, hogy elindult az oldal
+HaHa......2023-ban NEM éri meg Bitcoint venni
