@@ -1,2 +1,2 @@
-# Hugo minta oldal
+# Hugo Házi feladat
 
