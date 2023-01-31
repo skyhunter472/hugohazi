@@ -1,23 +1,22 @@
 ---
-title: "Markdown röviden"
+title: "Bitcoin röviden"
 menu: "main"
 draft: false
 ---
 
-# Ez egy cím
+# Bitcoin
 
 [Link a főoldalra.](/)
 
-Itt pedig egy-egy *dőlt* és **félkövér** szó.
 
-## Ez egy alcím
+## Néhány fajtája
 
 Felsorolás:
 
-* első elem
-* második elem
-* haramadik elem
+* Bitcoin (BTC)
+* Etherium (ETH)
+* Tether (USDT)
 
-Ezek a kapcsolati adataink
+Kereskedésra a Coindesk-et ajánlom
 
 ![Ez a kisbalaton](/kisbalaton.jpg)
