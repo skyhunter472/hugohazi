@@ -17,6 +17,6 @@ Felsorolás:
 * Etherium (ETH)
 * Tether (USDT)
 
-Kereskedésra a Coindesk-et ajánlom
+Kereskedésre a Coindesk-et ajánlom
 
 !static/BTC.jfif
