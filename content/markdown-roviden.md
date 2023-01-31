@@ -19,4 +19,3 @@ Felsorolás:
 
 Kereskedésre a Coindesk-et ajánlom
 
-!static/BTC.jfif
